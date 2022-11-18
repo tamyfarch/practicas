@@ -6,5 +6,31 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
+    <form action="/registro" method="post">
+      <h1>Login</h1>
+      <div class="group">
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email"> 
+      </div>
+      <div class="group">
+        <label for="Password">Password</label>
+        <input type="password" id="Password" name="Password"> 
+      </div>
+      <div class="group">
+        <label for="Genero">Genero</label>
+            <select>
+                <option value="" disable selected>Selecciona una opcion</option>
+                <option value="Mujer">Mujer</option>
+                <option value="Hombre">Hombre</option>
+                <option value="Hombre">Otro</option>
+            </select>
+          </div>
+          <div class="group">
+            <label for=""><input type="checkbox">Acepto los terminos</label>
+          </div>
+          <div class="actions">
+    <button type="submit">Ingresar</button>
+  </div>
+    </form>
   </body>
 </html>
