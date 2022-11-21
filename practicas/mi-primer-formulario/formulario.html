@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="pedidos">
+      <fieldset>
+        <label for="Nombre">Nombre</label>
+        <input type="Nombre" />
+      </fieldset>
+      <fieldset>
+        <label for="Apellido">Apellido</label>
+        <input type="Apellido" />
+      </fieldset>
+      <fieldset>
+        <label for="Correo">Correo</label>
+        <input type="Correo" />
+      </fieldset>
+      <fieldset>
+        <label for="Color">Color</label>
+        <select name="Color" id="Color">
+          <option value="" disabled selected>Selecciona un color</option>
+          <option value="red">Rojo</option>
+          <option value="blue">Azul</option>
+          <option value="purple">Purpura</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <input type="radio" name="talle" value="S" />
+        <label>Talle S</label>
+        <input type="radio" name="talle" value="M" />
+        <label>Talle M</label>
+        <input type="radio" name="talle" value="G" />
+        <label>Talle G</label>
+      </fieldset>
+      <fieldset>
+        <label>Comentario</label>
+        <textarea name="comentario" cols="40" rows="5"></textarea>
+      </fieldset>
+      <fieldset>
+        <input type="Submit" value="Pedir" />
+      </fieldset>
+    </form>
+  </body>
+</html>
